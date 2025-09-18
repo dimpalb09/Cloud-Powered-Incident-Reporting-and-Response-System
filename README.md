@@ -3,15 +3,10 @@ This system enables organizations to efficiently report, track, and respond to i
 
 
 Features
+•	Report incidents with title, description, and severity
+•	Retrieve all reported incidents
+•	Fully Dockerized backend for easy deployment
+•	Option to use DynamoDB or RDS as the database
+•	Cloud-native, can be deployed on AWS EC2
+•	Easily extendable for notifications (SNS/Email)
 
-Report incidents with title, description, and severity
-
-Retrieve all reported incidents
-
-Fully Dockerized backend for easy deployment
-
-Option to use DynamoDB or RDS as the database
-
-Cloud-native, can be deployed on AWS EC2
-
-Easily extendable for notifications (SNS/Email)
