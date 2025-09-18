@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  backend:
+    build: .
+    container_name: cloud-incident-backend
+    ports:
+      - "3000:3000"
+    environment:
+      - AWS_REGION=us-east-1
+      - DYNAMODB_TABLE=Incidents
+    volumes:
+      - .:/app
