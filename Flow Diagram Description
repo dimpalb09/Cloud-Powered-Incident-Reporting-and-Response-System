@@ -1,0 +1,11 @@
+User submits incident via Web/Mobile frontend → API endpoint /api/incidents/report.
+
+Backend processes request and stores incident:
+
+DynamoDB if DB_TYPE=DYNAMODB.
+
+RDS if DB_TYPE=RDS.
+
+Backend returns success response.
+
+Users can fetch all incidents using /api/incidents/all.
