@@ -3,6 +3,7 @@ This system enables organizations to efficiently report, track, and respond to i
 
 
 Features
+
 •	Report incidents with title, description, and severity
 
 •	Retrieve all reported incidents
